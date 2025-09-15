@@ -2,7 +2,8 @@
   "name": "mini-seller-console",
   "version": "1.0.0",
   "private": true,
-   "scripts": {
+  "homepage": "https://ingridslytherin.github.io/mini-seller", 
+  "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
@@ -16,7 +17,8 @@
     "@vitejs/plugin-react": "^5.0.2",
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.6",
-    "tailwindcss": "^3.4.17",
-    "vite": "^7.1.5"
+    "tailwindcss": "^4.1.13",
+    "vite": "^7.1.5",
+    "gh-pages": "^6.1.1"
   }
 }
