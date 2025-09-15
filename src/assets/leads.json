@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Alice Johnson",
+    "company": "TechCorp",
+    "email": "alice@techcorp.com",
+    "source": "Website",
+    "score": 85,
+    "status": "New"
+  },
+  {
+    "id": 2,
+    "name": "Bob Smith",
+    "company": "InnoSoft",
+    "email": "bob@innosoft.com",
+    "source": "Referral",
+    "score": 72,
+    "status": "Contacted"
+  }
+]
