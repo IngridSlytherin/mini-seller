@@ -1,27 +1,38 @@
-# Mini Seller
+# Mini Seller Console
 
-Mini CRM for leads and opportunities using React + Tailwind CSS.
+A lightweight sales console to triage leads and convert them into opportunities, built with React and Tailwind CSS.
+
+**Live demo:** https://ingridslytherin.github.io/mini-seller
+
+> Screenshot: add `docs/console.png` here.
 
 ## Features
 
-- Display a list of leads with name, company, email, score, status  
-- Click on a lead to edit email or status  
-- Convert lead to opportunity  
-- Responsive UI: sidebar detail panel on desktop, modal on mobile
+- Lead list with name, company, email, score and status
+- Click a lead to edit its email or status
+- Convert a lead into an opportunity; it leaves the lead list and appears under Opportunities
+- Responsive layout: side detail panel on desktop, modal on mobile
 
-## Tech Stack
+## Stack
 
-- React  
-- Tailwind CSS  
-- Vite
+React 19 · Tailwind CSS 4 · Vite 7 · deployed to GitHub Pages
 
-## Usage
+## Running locally
 
-1. `npm install`  
-2. `npm run dev`  
-3. Open `http://localhost:5173`  
-4. Click on a lead to edit or convert
+```bash
+npm install
+npm run dev
+```
 
-## Deployment
+Open http://localhost:5173.
 
-Project is hosted using GitHub Pages (add additional instructions or link when deployed).
+## Deploy
+
+```bash
+npm run build
+npm run deploy
+```
+
+---
+
+Built by [Ingrid Padilha](https://www.linkedin.com/in/ingrid-padilha/).
